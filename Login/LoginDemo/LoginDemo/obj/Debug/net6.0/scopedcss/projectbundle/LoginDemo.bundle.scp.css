@@ -1,0 +1,258 @@
+/* _content/LoginDemo/Views/Home/Index.cshtml.rz.scp.css */
+
+a.navbar-brand[b-nhzvlzut88] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a[b-nhzvlzut88] {
+    color: #0077cc;
+}
+
+.btn-primary[b-nhzvlzut88] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-nhzvlzut88], .nav-pills .show > .nav-link[b-nhzvlzut88] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-nhzvlzut88] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-nhzvlzut88] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-nhzvlzut88] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-nhzvlzut88] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer[b-nhzvlzut88] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+
+
+borders */
+.navbar[b-nhzvlzut88] {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.carousel-inner[b-nhzvlzut88] {
+    margin: 21px 3px 61px;
+    margin-bottom: 10px;
+}
+
+.col-sm-8 text-left[b-nhzvlzut88], #img[b-nhzvlzut88] {
+    min-height: 665px;
+    position: relative;
+    right: -68px;
+}
+
+#main[b-nhzvlzut88] {
+    min-height: 665px;
+    background-color: beige;
+}
+
+th[b-nhzvlzut88] {
+    font-weight: bold
+}
+
+#table[b-nhzvlzut88] {
+    position: relative;
+    top: 10px;
+}
+
+#login[b-nhzvlzut88] {
+    position: relative;
+    top: 211px;
+}
+
+#footer[b-nhzvlzut88] {
+    position: relative;
+    bottom: -80px;
+}
+
+#img[b-nhzvlzut88] {
+    /* background-image: url(https://www.proofhub.com/wp-content/uploads/2021/08/Employee-Management-System-Apps.png);*/
+    background-size: cover;
+    background-position-x: -7vh;
+}
+
+.login_page[b-nhzvlzut88] {
+    position: relative;
+    top: -219px;
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto
+}
+
+.form[b-nhzvlzut88] {
+    position: relative;
+    z-index: 1;
+    background: rgba(7, 40, 195, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 6px
+}
+
+    .form input[b-nhzvlzut88] {
+        font-family: "Roboto", Sans-serif;
+        outline: 1;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        border-radius: 2px
+    }
+
+    .form button[b-nhzvlzut88] {
+        font-family: "Roboto", Sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #4CAF50;
+        width: 100%;
+        border: 2;
+        border-radius: 4px;
+        padding: 15px;
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer
+    }
+
+        .form button:hover[b-nhzvlzut88], .form button:active[b-nhzvlzut88] {
+            background: #43A047
+        }
+
+    .form .message[b-nhzvlzut88] {
+        margin: 15px 0 0;
+        color: aliceblue;
+        font-size: 16px
+    }
+
+        .form .message a[b-nhzvlzut88] {
+            color: #4CAF50;
+            text-decoration: none
+        }
+
+    .form .register_form[b-nhzvlzut88] {
+        display: none
+    }
+/* Set gray background color and 100% height */
+.sidenav[b-nhzvlzut88] {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer[b-nhzvlzut88] {
+    color: white;
+    height: 7vh;
+}
+
+.footer[b-nhzvlzut88] {
+    left: 0vh;
+}
+
+.divider[b-nhzvlzut88]:after,
+.divider[b-nhzvlzut88]:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom[b-nhzvlzut88] {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom[b-nhzvlzut88] {
+        height: 100%;
+    }
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav[b-nhzvlzut88] {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content[b-nhzvlzut88] {
+        height: auto;
+    }
+}
+/* _content/LoginDemo/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-p9vc2mnlga] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-p9vc2mnlga] {
+  color: #0077cc;
+}
+
+.btn-primary[b-p9vc2mnlga] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-p9vc2mnlga], .nav-pills .show > .nav-link[b-p9vc2mnlga] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-p9vc2mnlga] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-p9vc2mnlga] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-p9vc2mnlga] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-p9vc2mnlga] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-p9vc2mnlga] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+
+

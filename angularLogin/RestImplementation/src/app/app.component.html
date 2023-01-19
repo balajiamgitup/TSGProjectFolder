@@ -1,0 +1,28 @@
+
+
+<nav class="navbar navbar-expand-lg bg-dark" >
+  <div class="container" >
+    <a class="navbar-brand" routerLink="/item">Menu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item" (click)="logOut()" class="btn btn-danger">
+          <!-- <button (click)="logOut()" class="btn btn-danger" class="col-sm-1 btn btn-danger">Log out</button> -->
+LogOut
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

@@ -1,0 +1,48 @@
+
+
+<div>
+  <h1>
+      <span>{{ title.toUpperCase() }}app is running!"</span>
+    </h1>
+<h2>
+  {{greetUser()}}
+</h2>
+  <input id={{myId}} type="text " value="Balaji">
+
+<h3 [style.color]="hashError ? 'red' : 'green' ">
+    Balaji A M
+    <input type="text" #myInput>
+<button (click)="onClick(myInput.value)">Greet</button>
+</h3>
+<input [(ngModel)]="name" type="text">
+<h2>{{ name }}</h2>
+
+<h4 *ngIf="check">
+  UST
+</h4>
+
+<h5 *ngFor="let c of color;let i=index">
+  {{c}}
+   {{i}}
+</h5>
+
+<h1>
+
+  Date: {{ dateToday  }} <br>
+
+  Date Pipe: {{ dateToday | date | uppercase}}<br>
+
+  Date Pipe: {{ dateToday | date: 'short' | lowercase}} <br>
+
+  Name: {{ name | uppercase}} <br>
+
+  Name: {{ name | slice:6}}
+
+</h1>
+<h2>
+  <ul *ngFor="let item of employee">
+    <li>{{item.name}}</li>
+  </ul>
+</h2>
+   <router-outlet></router-outlet>
+</div>

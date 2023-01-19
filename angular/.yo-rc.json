@@ -1,0 +1,43 @@
+{
+  "generator-ngx-rocket": {
+    "version": "11.0.0",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "angular",
+      "target": [
+        "web"
+      ],
+      "ui": "bootstrap",
+      "features": [
+        "auth",
+        "lazy"
+      ],
+      "languages": [
+        "en-US",
+        "fr-FR"
+      ],
+      "tools": [
+        "prettier"
+      ],
+      "utility": [
+        "moment"
+      ],
+      "deploy": "github",
+      "projectName": "angular",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": [],
+      "pwa": false,
+      "auth": true,
+      "lazy": true,
+      "e2e": false,
+      "cypress": false,
+      "angulartics": false
+    }
+  }
+}

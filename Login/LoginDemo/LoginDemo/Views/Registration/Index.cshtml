@@ -1,0 +1,68 @@
+﻿@model LoginDemo.Models.UserRegistration
+
+@{
+    ViewData["Title"] = "User Registartion Fom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>CreateUser</h1>
+
+<hr/>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3 border border-primary rounded p1-5 pr-5 pb-5 mt-2">
+            <div class="text-black-center">
+                <h1 class="text-info">User Registration</h1>
+
+            </div>
+       
+            <form method="post" asp-action="CreateUser">
+                <div class="form-group">
+                    <label asp-for="UserName"></label>
+                    <input type="text" asp-for="UserName" placeholder="Enter UserName" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input type="text" asp-for="Email" placeholder="Enter Email" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+             
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="Password"></label>
+                            <input type="password" asp-for="Password" placeholder="Enter password " class="form-control" autocomplete="off" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                  
+                </div>
+            
+                <div class="form-group">
+             <div class="form-group">
+                <input type="submit" value="Insert" class="btn btn-primary" />
+            </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
